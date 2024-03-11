@@ -42,6 +42,25 @@
 		border-radius: 5px;
 		font-weight: bold;
 	}
+	.two-columns {
+		text-align: center;
+		font-size: 0;
+		padding: 40px 0;
+	}
+	.two-columns .column {
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.two-columns .padding {
+		padding: 20px;
+	}
+	.two-columns .content {
+		text-align: center;
+		font-size: 15px;
+		line-height: 20px;
+	}
 
 	@media screen and (max-width: 600px) { 
 
@@ -140,7 +159,48 @@
 </tr>
 
 <!-- TWO COLUMN SECTION -->
+<tr>
+	<td>
+		<table width="100%">
+			<tr>
+				<td class="two-columns">
+					<table class="column">
+						<tr>
+							<td class="padding">
+								<table class="content">
+									<tr>
+										<td>
+											<a href="#"><img src="img/560x420.jpg" alt="" width="260"
+												style="max-width: 260px;"></a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
 
+					<table class="column">
+						<tr>
+							<td class="padding">
+								<table class="content">
+									<tr>
+										<td>
+											<p style="font-size: 17px;font-weight: bold;">Create Custom Designs</p>
+											<p style="padding-bottom: 15px;">Responsive HTML Email Templates,
+											   that you can build around to master email development</p>
+											<a href="#" class="button">Read More</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
 
 <!-- BLUE BACKGROUND QUOTE -->
 
